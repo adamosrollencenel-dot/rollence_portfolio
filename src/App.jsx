@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+  import { useEffect, useMemo, useRef, useState } from 'react'
 
 /* ---------- Data ---------- */
 
@@ -391,7 +391,7 @@ function Hero() {
 
       <div className="hero__portrait">
         <div className="portrait-frame">
-          <img src="/rollence-photo.jpg" alt="Portrait of Rollence Nel Adamos" />
+          <img src={import.meta.env.BASE_URL + 'rollence-photo.jpg'} alt="Portrait of Rollence Nel Adamos" />
         </div>
         <div className="portrait-glow" aria-hidden="true" />
       </div>
